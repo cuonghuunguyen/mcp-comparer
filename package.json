@@ -1,0 +1,50 @@
+{
+  "name": "mcp-comparer",
+  "version": "1.0.0",
+  "description": "Comparer tool for LLMs",
+  "main": "index.js",
+  "bin": {
+    "mcp-comparer": "lib/index.js"
+  },
+  "scripts": {
+    "start": "tsx index.ts",
+    "build": "tsc"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "type": "module",
+  "keywords": [
+    "llm",
+    "comparer",
+    "model context protocol",
+    "ai",
+    "cli",
+    "open source",
+    "typescript"
+  ],
+  "author": "Cuong Huu Nguyen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cuonghuunguyen/mcp-comparer"
+  },
+  "homepage": "https://github.com/cuonghuunguyen/mcp-comparer",
+  "bugs": {
+    "url": "https://github.com/cuonghuunguyen/mcp-comparer/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.14.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "@types/node": "^22.17.2",
+    "tsx": "^4.20.5"
+  }
+}
