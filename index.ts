@@ -20,7 +20,12 @@ server.registerTool(
     inputSchema: { a: z.number(), b: z.number() },
   },
   async ({ a, b }) => ({
-    content: [{ type: "text", text: Math.max(a, b).toString() }],
+    content: [
+      {
+        type: "text",
+        text: `The larger number is ${Math.max(a, b)}`,
+      },
+    ],
   })
 );
 
