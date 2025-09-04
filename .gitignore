@@ -226,3 +226,4 @@ security-check.tar.gz
 # Script generated files
 build-scripts/fastlane/report.xml
 build-scripts/fastlane/FastlaneRunner
+lib
